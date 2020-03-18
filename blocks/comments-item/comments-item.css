@@ -1,6 +1,6 @@
-@import url('/../blocks/comments-item/__img/comments-item__img.css');
-@import url('/../blocks/comments-item/__quote/comments-item__quote.css');
-@import url('/../blocks/comments-item/__author/comments-item__author.css');
+@import url('../comments-item/__img/comments-item__img.css');
+@import url('../comments-item/__quote/comments-item__quote.css');
+@import url('../comments-item/__author/comments-item__author.css');
 
 .comments-item {
   width: calc(90%/3);

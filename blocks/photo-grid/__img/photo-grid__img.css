@@ -1,0 +1,37 @@
+.photo-grid__img {
+  margin: 0;
+  width: 100%;
+  max-width: 284px;
+  height: 188px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid__img {
+    max-width: 300px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid__img {
+    max-width: 352px;
+    height: 234px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .photo-grid__img {
+    max-width: 343px;
+    height: 232px;
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid__img {
+    max-width: 288px;
+    height: 192px;
+    margin-bottom: 8px;
+  }
+}

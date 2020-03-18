@@ -1,0 +1,35 @@
+@import url('../../blocks/place/__title/place__title.css');
+@import url('../../blocks/place/__img/place__img.css');
+@import url('../../blocks/place/__url/place__url.css');
+@import url('../../blocks/place/__link/place__link.css');
+@import url('../../blocks/place/__text/place__text.css');
+@import url('../../blocks/place/__top/place__top.css');
+@import url('../../blocks/place/__bottom/place__bottom.css');
+@import url('../../blocks/place/__urls/place__urls.css');
+@import url('../../blocks/place/__texts/place__texts.css');
+
+.place {
+  max-width: 984px;
+  max-height: 650px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    max-width: 90%;
+    max-height: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    max-width: 93.7%;
+    max-height: 93.7%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}

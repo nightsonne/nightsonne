@@ -1,0 +1,17 @@
+.comments-item__author {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .comments-item__author {
+    order: 2;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 16px auto 0;
+    text-align: center;
+  }
+}

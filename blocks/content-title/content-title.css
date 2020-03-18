@@ -1,0 +1,26 @@
+/*@import url('../../blocks/content-title/_place/content-title_place_bottom.css');
+@import url('../../blocks/content-title/_place/content-title_place_cover.css');*/
+
+.content-title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 65px;
+  text-align: center;
+  max-width: 850px;
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 768px) {
+  .content-title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .content-title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

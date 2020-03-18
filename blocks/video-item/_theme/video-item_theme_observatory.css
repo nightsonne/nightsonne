@@ -1,0 +1,27 @@
+.video-item_theme_observatory {
+  background-image: url('../../../static/images/observatory.jpg');
+}
+
+@media screen and (max-width: 1190px) {
+  .video-item_theme_observatory {
+    background-image: url('../../../static/images/observatory-1024.jpg');
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .video-item_theme_observatory{
+    background-image: url('../../../static/images/observatory-768.jpg');
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .video-item_theme_observatory {
+    background-image: url('../../../static/images/observatory-425.jpg');
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video-item_theme_observatory {
+    background-image: url('../../../static/images/observatory-320.jpg');
+  }
+}

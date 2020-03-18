@@ -1,0 +1,9 @@
+.main__content-subtitle {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 425px) {
+  .main__content-subtitle {
+    margin: 0 16px;
+  }
+}

@@ -1,0 +1,9 @@
+.main__place {
+  margin: 0 auto 72px;
+}
+
+@media screen and (max-width: 425px) {
+  .main__place {
+    margin: 0 auto 48px;
+  }
+}

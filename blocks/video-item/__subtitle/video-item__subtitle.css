@@ -1,0 +1,25 @@
+.video-item__subtitle {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 15px;
+  margin: 18px 0 0 30px;
+}
+
+@media screen and (max-width: 950px) {
+  .video-item__subtitle {
+    margin: 12px 0 0 24px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .video-item__subtitle {
+    margin: 6px 0 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video-item__subtitle {
+    margin: 6px 0 0 16px;
+  }
+}

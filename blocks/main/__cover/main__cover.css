@@ -1,0 +1,22 @@
+.main__cover {
+  margin: 102px auto 160px;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .main__cover {
+    margin: 80px auto 102px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .main__cover {
+    margin: 48px auto 64px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main__cover {
+    margin: 64px auto;
+  }
+}

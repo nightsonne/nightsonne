@@ -1,0 +1,27 @@
+.place__top {
+  display: flex;
+  margin: 0 auto 60px;
+  align-items: flex-end;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__top {
+    margin: 0 auto 55px;
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__top {
+    margin: 0 auto 51px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__top {
+    display: block;
+    margin: 0 0 32px 16px;
+  }
+}

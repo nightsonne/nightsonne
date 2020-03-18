@@ -1,0 +1,22 @@
+.intro__list-statistics {
+  list-style: none;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  padding-left: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .intro__list-statistics  {
+    margin: 0 0 0 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__list-statistics {
+    font-size: 12px;
+    line-height: 19px;
+    margin: 0 0 32px 16px;
+  }
+}

@@ -1,0 +1,36 @@
+.video-item__icon {
+  background-image: url(../../../static/images/__icon_play.svg);
+  background-color: rgba(0,0,0,0);
+  width: 41px;
+  height: 41px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-repeat: no-repeat;
+}
+
+.video-item__icon:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+  .video-item__icon {
+    top: 25px;
+    left: 25px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .video-item__icon {
+    flex-direction: column;
+    top: 24px;
+    left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video-item__icon {
+    top: 16px;
+    left: 16px;
+  }
+}

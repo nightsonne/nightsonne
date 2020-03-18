@@ -1,0 +1,40 @@
+@import url('../../blocks/header/__logo/header__logo.css');
+@import url('../../blocks/header/__item/header__item.css');
+@import url('../../blocks/header/__lang/header__lang.css');
+@import url('../../blocks/header/__link/header__link.css');
+@import url('../../blocks/header/__link/_selected/header__link_selected.css');
+
+.header {
+  display: flex;
+  padding-top: 30px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 82%;
+  min-width: 280px;
+}
+
+@media screen and (max-width: 1280px) {
+  .header {
+    max-width: 92.5%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 90.6%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 94%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    max-width: 90%;
+    padding-top: 16px;
+  }
+}

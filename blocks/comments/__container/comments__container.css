@@ -1,0 +1,32 @@
+.comments__container {
+  display: flex;
+  max-width: 1184px;
+  /* min-width: 928px; */
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  margin: 72px auto 0;
+  align-items: flex-start;
+
+}
+
+@media screen and (max-width: 1280px) {
+  .comments__container {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .comments__container {
+    flex-direction: column;
+    align-items: center;
+    max-width: 768px;
+    min-width: 320px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .comments__container {
+    padding: 0 16px;
+  }
+}

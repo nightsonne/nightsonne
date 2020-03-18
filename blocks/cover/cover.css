@@ -2,8 +2,6 @@
 @import url('../../blocks/cover/__text/cover__text.css');
 @import url('../../blocks/cover/__mask/cover__mask.css');
 @import url('../../blocks/cover/__link/cover__link.css');
-@import url('../../blocks/cover/__title-container/cover__title-container.css');
-
 
 .cover {
   max-width: 1184px;

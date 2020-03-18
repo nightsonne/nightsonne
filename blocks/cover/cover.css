@@ -10,7 +10,7 @@
   height: calc(100vw/2);
   max-height: 594px;
   position: relative;
-  background-image: url(/../static/images/dogs.jpg);
+  background-image: url(../static/images/dogs.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
@@ -23,27 +23,27 @@
 
 @media screen and (max-width: 1024px) {
   .cover {
-    background-image: url(/../static/images/dogs-1024.jpg);
+    background-image: url(../static/images/dogs-1024.jpg);
   }
 }
 
 @media screen and (max-width: 945px) {
   .cover {
-    background-image: url(/../static/images/small-dogs.jpg);
+    background-image: url(../static/images/small-dogs.jpg);
     height: calc(65vw);
   }
 }
 
 @media screen and (max-width: 375px) {
   .cover {
-    background-image: url(/../static/images/dogs-375.jpg);
+    background-image: url(../static/images/dogs-375.jpg);
     height: calc(73vw);
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    background-image: url(/../static/images/dogs-320.jpg);
+    background-image: url(../static/images/dogs-320.jpg);
     height: calc(67vw);
   }
 }

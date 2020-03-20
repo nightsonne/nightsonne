@@ -34,10 +34,10 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .video__container {
     height: 392px;
-    max-width: 192px;
+    max-width: 292px;
 
   }
 }
